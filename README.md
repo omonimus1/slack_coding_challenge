@@ -8,7 +8,7 @@ Slack bot Designed to daily send me a link to a coding challenge, to prepare for
 ## How to avoid to get this script running h24
 
 HEI DJ, SPIN THAT CRON JOB;
-[!image](dj.png)
+![image](dj.png)
 
 
 [Guide to crontab job set-up](https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804)

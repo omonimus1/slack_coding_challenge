@@ -4,6 +4,7 @@ import random
 import logging
 import traceback
 import sys
+import mysql_connection
 
 
 # Configure Basic Logging
@@ -32,7 +33,6 @@ def send_challenge(challenge_to_solve):
 
 
 def fetch_random_challenge():
-
     path_to_file = "challenges.txt"
     file = open(path_to_file)
     # Fetch all lines from the file
@@ -47,6 +47,11 @@ def fetch_random_challenge():
 
 
 if __name__ == '__main__':
-    fetch_random_challenge()
+    connection = mysql_connection.connect()
+    print('ottenende ca')
+    rand_challenge = mysql_connection.fetch_challenge_from_database(connection)
+    # fetch_random_challenge()
+    connection.close()
+    send_challenge(rand_challenge)
 
 

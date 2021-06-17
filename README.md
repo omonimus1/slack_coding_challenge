@@ -1,6 +1,8 @@
 # slack_coding_challenge
 Slack bot Designed to daily send a link to a coding challenge.
+
 ![image](img/logo.jpeg)
+
 
 ## Functionalities
 This bot will automatically send a message to your slack channel. 
@@ -18,11 +20,7 @@ The structure of my challenges table is the following
 * Mysql ```pip install MySQL-python```
 
 ## How to avoid to get this script running h24
-
-HEI DJ, SPIN THAT CRON JOB;
-![image](img/dj.png)
-
-
+I have set up a cronjob, to automatically trigger and run the python script, in according to my needs
 [Guide to crontab job set-up](https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804)
 
 ## Note

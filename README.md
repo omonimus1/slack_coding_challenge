@@ -26,4 +26,5 @@ HEI DJ, SPIN THAT CRON JOB;
 [Guide to crontab job set-up](https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804)
 
 ## Note
+* At the root folder of the bot, make sure to add create a log folder; 
 * This bot has been made during a boring thursday night, any feedback is welcome. 

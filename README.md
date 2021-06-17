@@ -1,4 +1,4 @@
-# slack_coding_challenge
+# Slack Coding Challenge
 
 Slack bot Designed to daily send me a link to a coding challenge, to prepare for next round interview. 
 ## System requirements

@@ -1,0 +1,18 @@
+17-Jun-21 00:41:09 - --Impossible to communicate with slack--
+17-Jun-21 00:41:09 - The request to the Slack API failed.
+The server responded with: {'ok': False, 'error': 'not_authed'}
+Traceback (most recent call last):
+  File "get_challenge.py", line 27, in send_challenge
+    client.chat_postMessage(channel='coding_challenges', text=challenge_to_solve)
+  File "/home/davide/.local/lib/python3.8/site-packages/slack/web/client.py", line 1077, in chat_postMessage
+    return self.api_call("chat.postMessage", json=kwargs)
+  File "/home/davide/.local/lib/python3.8/site-packages/slack/web/base_client.py", line 150, in api_call
+    return self._sync_send(api_url=api_url, req_args=req_args)
+  File "/home/davide/.local/lib/python3.8/site-packages/slack/web/base_client.py", line 241, in _sync_send
+    return self._urllib_api_call(
+  File "/home/davide/.local/lib/python3.8/site-packages/slack/web/base_client.py", line 369, in _urllib_api_call
+    return SlackResponse(
+  File "/home/davide/.local/lib/python3.8/site-packages/slack/web/slack_response.py", line 194, in validate
+    raise e.SlackApiError(message=msg, response=self)
+slack.errors.SlackApiError: The request to the Slack API failed.
+The server responded with: {'ok': False, 'error': 'not_authed'}

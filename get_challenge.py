@@ -7,14 +7,14 @@ import sys
 
 
 # Configure Basic Logging
-logging.basicConfig(filename='error.log',
+logging.basicConfig(filename='log/error.log',
                             filemode='a',
                             format='%(asctime)s - %(message)s',
                             datefmt='%d-%b-%y %H:%M:%S',
                             level=logging.ERROR)
 
 
-logging.basicConfig(filename='info.log',
+logging.basicConfig(filename='log/info.log',
                             filemode='a',
                             format='%(asctime)s - %(message)s',
                             datefmt='%d-%b-%y %H:%M:%S',
@@ -42,7 +42,7 @@ def fetch_random_challenge():
     logging.info("Almost got a challenge")
     # Pick a random challenge from line [0](first line) to N-1
     send_challenge(lines[random.randint(0,number_of_challenges-1)])
-    logging.info("Challenge sent successfully")
+    logging.info("Challenge sent")
 
 
 

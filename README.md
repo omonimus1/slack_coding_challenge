@@ -14,4 +14,4 @@ HEI DJ, SPIN THAT CRON JOB;
 [Guide to crontab job set-up](https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804)
 
 ## Note
-* This project has been made during a boring thursday night, any feedback is welcome. 
+* This bot has been made during a boring thursday night, any feedback is welcome. 

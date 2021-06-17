@@ -6,10 +6,11 @@ Slack bot Designed to daily send a link to a coding challenge.
 This bot will automatically send a message to your slack channel. 
 It is able to fetch a random link of a coding challenge from a file, or, from a mysql database (which I am currently using).
 
-
 The structure of my challenges table is the following
 ![database]](img/db.png)
 
+## Bot Message structure
+![challenge screenshot](img/challenge.png)
 
 ## System requirements
 * Python3

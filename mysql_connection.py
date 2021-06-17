@@ -14,8 +14,7 @@ def connect():
         return conn
     except Error as e:
         print(e)
-    finally:
-        conn.close()
+
 
 
 def fetch_challenge_from_database(conn):

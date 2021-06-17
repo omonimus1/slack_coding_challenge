@@ -31,7 +31,7 @@ def send_challenge(challenge_to_solve):
         logging.exception(error)
 
 
-
+# Fetch random challenge from a file; I will use a database instead
 def fetch_random_challenge():
     path_to_file = "challenges.txt"
     file = open(path_to_file)

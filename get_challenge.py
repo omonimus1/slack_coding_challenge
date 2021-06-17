@@ -48,10 +48,8 @@ def fetch_random_challenge():
 
 if __name__ == '__main__':
     connection = mysql_connection.connect()
-    print('ottenende ca')
     rand_challenge = mysql_connection.fetch_challenge_from_database(connection)
     # fetch_random_challenge()
-    connection.close()
     send_challenge(rand_challenge)
 
 

@@ -7,10 +7,16 @@ DROP TABLE IF EXISTS Category;
 
 CREATE TABLE Category
 (
-    id INT PRIMARY KEY AUTO_INCREMENT,
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL, 
-    description VARCHAR(255)
+    description VARCHAR(255) DEFAULT NULL
 );
+
+INSERT INTO Category(name, description) Values('data-structure', 'Algorithms and DataStuctures coding challenges');
+INSERT INTO Category(name) Values('machine-learning');
+INSERT INTO Category(name) Values('behavioural');
+INSERT INTO Category(name) Values('system-design');
+
 
 CREATE TABLE Problem
 (

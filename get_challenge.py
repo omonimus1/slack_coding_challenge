@@ -4,10 +4,10 @@ import json
 import sys
 import random
 import requests
-    
+
 
 def send_challenge(challenge_to_solve):
-    url = "https://hooks.slack.com/services/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"
+    url = ""
     message = challenge_to_solve
     title = (f"New Challenge available :zap:")
     slack_data = {
